@@ -9,8 +9,12 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: './index.html',
-                about: './about.html', // Trỏ thẳng đến file about.html ở thư mục gốc
-            },
+                about: './about.html',
+                practice: './practice.html',
+                blog: './blog.html',
+                contact: './contact.html',
+                404: './404.html',
+            }
         },
     },
 })

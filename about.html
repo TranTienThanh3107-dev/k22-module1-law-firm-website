@@ -27,12 +27,43 @@
                 </div>
                 
                 <nav class="hidden lg:flex items-center gap-[40px] text-[1.6rem] font-medium text-black ml-auto mr-[6.5%]">
-                    <a href="#" class="text-primary font-bold">Home</a>
-                    <a href="#" class="flex items-center gap-[7px]">About <img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]"></a>
-                    <a href="#" class="flex items-center gap-[7px]">Practice Areas <img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]"></a>
-                    <a href="#" class="flex items-center gap-[7px]">Attorneys <img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]"></a>
-                    <a href="#" class="flex items-center gap-[7px]">Page <img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]"></a>
+                    <a href="./home.html" class="flex items-center gap-[7px] relative cursor-pointer text-gray-800 hover:text-primary-about transition-colors duration-300
+                                                after:content-[''] after:absolute after:bottom-0 after:left-0
+                                                after:h-[3px] after:w-full after:bg-primary-about after:rounded-full
+                                                after:scale-x-0 after:origin-bottom-right
+                                                hover:after:scale-x-100 hover:after:origin-bottom-left
+                                                after:transition-transform after:duration-300">Home<img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]"></a>
+                    <a href="#!" class="text-[#FD6038] font-bold">About</a>
+                    <a href="./practice.html" class=" flex items-center gap-[7px] relative cursor-pointer text-gray-800 hover:text-primary-about transition-colors duration-300
+                                        after:content-[''] after:absolute after:bottom-0 after:left-0
+                                        after:h-[3px] after:w-full after:bg-primary-about after:rounded-full
+                                        after:scale-x-0 after:origin-bottom-right
+                                        hover:after:scale-x-100 hover:after:origin-bottom-left
+                                        after:transition-transform after:duration-300">Practice Areas <img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]"></a>
+                    <a href="./Attorneys" class=" flex items-center gap-[7px] relative cursor-pointer text-gray-800 hover:text-primary-about transition-colors duration-300
+                                        after:content-[''] after:absolute after:bottom-0 after:left-0
+                                        after:h-[3px] after:w-full after:bg-primary-about after:rounded-full
+                                        after:scale-x-0 after:origin-bottom-right
+                                        hover:after:scale-x-100 hover:after:origin-bottom-left
+                                        after:transition-transform after:duration-300">Attorneys</a>
+                    <div class="group relative">
+                        <a href="#!" class=" flex items-center gap-[7px] relative cursor-pointer text-gray-800 hover:text-primary-about transition-colors duration-300
+                                        after:h-[3px] after:w-full after:bg-primary-about after:rounded-full
+                                        after:scale-x-0 after:origin-bottom-right
+                                        hover:after:scale-x-100 hover:after:origin-bottom-left
+                                        after:transition-transform after:duration-300">
+                            Page <img src="./img/Vector2.svg" alt="" class="w-[8px] h-[4px]">
+                        </a>
+                        <ul class="top-full absolute text-[1.6rem]  top-3 right-1 w-18.5 h-[212px] hidden bg-white space-y-[12px] pl-[12px] py-[12px]  group-hover:block shadow-lg rounded-md "  >
+                            <li><a class="hover:text-primary-about" href="./blog.html">Blog</a></li>
+                            <li><a class="hover:text-primary-about" href="./contact.html">Contact</a></li>
+                            <li><a class="hover:text-primary-about" href="#!">FAQ</a></li>
+                            <li><a class="hover:text-primary-about" href="./404.html">404</a></li>
+                            <li><a class="hover:text-primary-about" href="./coming-soon.html">Coming Soon</a></li>
+                        </ul>
+                    </div>
                 </nav>
+                
                 
                 <div class="flex items-baseline gap-[6px] lg:items-center">
                     <span class="lg:text-gray-700 font-normal text-[1rem] lg:text-[1.6rem]/[1.75] text-center inline">Call :</span>
